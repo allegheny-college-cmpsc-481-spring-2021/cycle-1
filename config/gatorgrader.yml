@@ -7,7 +7,6 @@ indent: 4
 writing:
     progress.md:
         mdl
-        proselint
         ConfirmFileExists
         CountFileWords --count 500
         CountFileParagraphs --count 3
@@ -17,7 +16,6 @@ writing:
 writing:
     FTR.md:
         mdl
-        proselint
         ConfirmFileExists
         CountFileWords --count 1000
         CountFileParagraphs --count 5
