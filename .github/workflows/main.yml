@@ -18,8 +18,6 @@
           python-version: 3.8
       - name: Install mdl
         uses: actionshub/markdownlint@master
-        run: |
-          mdl writing/
         if: always()
       - name: Set up grading environment
         run: |
